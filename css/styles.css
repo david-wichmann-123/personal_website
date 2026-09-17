@@ -134,7 +134,7 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 230px 1fr;
   gap: 64px;
   align-items: start;
 }
@@ -379,7 +379,7 @@ a.course:hover h2 {
   }
 
   .portrait {
-    max-width: 280px;
+    max-width: 230px;
   }
 
   .nav-toggle {
