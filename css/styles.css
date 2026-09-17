@@ -80,21 +80,16 @@ a:hover {
   min-height: var(--header-h);
 }
 
+.header-home {
+  justify-content: flex-end;
+}
+
 .brand {
-  display: inline-flex;
-  align-items: center;
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.brand svg {
-  display: block;
-  width: 22px;
-  height: 22px;
-}
-
-.brand:hover {
-  color: var(--accent-hover);
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--ink);
 }
 
 .nav-toggle {
