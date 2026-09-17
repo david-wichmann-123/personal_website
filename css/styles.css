@@ -274,6 +274,62 @@ a.course:hover h2 {
   margin-bottom: 12px;
 }
 
+.page-section {
+  margin-top: 48px;
+}
+
+.page-section h2 {
+  margin: 0 0 20px;
+  font-size: 1.55rem;
+}
+
+.doc-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 48px;
+}
+
+.doc-links a {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.doc-links a:hover {
+  text-decoration: underline;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.app-tile {
+  display: flex;
+  flex-direction: column;
+  min-height: 160px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-tile:hover {
+  border-color: var(--accent);
+  color: inherit;
+}
+
+.app-tile h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+}
+
+.app-tile p {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
 .crumb {
   margin: 0 0 18px;
   color: var(--ink-soft);
