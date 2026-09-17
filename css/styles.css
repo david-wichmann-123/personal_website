@@ -3,8 +3,8 @@
   --ink: #12151c;
   --ink-soft: #5a6270;
   --line: #d8dee8;
-  --accent: #1b4fd8;
-  --accent-hover: #1239a3;
+  --accent: #003366;
+  --accent-hover: #002244;
   --header-h: 72px;
   --max: 1180px;
   --font-serif: "IBM Plex Serif", Georgia, serif;
@@ -81,12 +81,16 @@ a:hover {
 }
 
 .brand {
-  font-family: var(--font-serif);
-  font-size: 1.35rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
   color: var(--accent);
+  text-decoration: none;
+}
+
+.brand svg {
+  display: block;
+  width: 22px;
+  height: 22px;
 }
 
 .brand:hover {
@@ -144,7 +148,7 @@ main {
   width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  background: #0f2747;
+  background: #003366;
 }
 
 .eyebrow {

@@ -1,9 +1,3 @@
-const brand = document.querySelector(".brand");
-if (brand) {
-  brand.textContent = "DW";
-  brand.setAttribute("aria-label", "Zur Startseite");
-}
-
 const toggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".site-nav");
 
