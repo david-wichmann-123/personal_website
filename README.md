@@ -1,32 +1,35 @@
 # Persönliche Website — David Wichmann
 
-Statische Website für GitHub Pages: Startseite, Vorlesungen, Forschung und Abschlussarbeiten.
+Statische Website für GitHub Pages.
 
-Nach dem ersten Deploy ist die Seite unter
+Adresse nach dem ersten Deploy:
 
 `https://david-wichmann-123.github.io/personal_website/`
 
-erreichbar.
-
 ## Lokal anschauen
-
-Im Projektordner einen lokalen Server starten:
 
 ```powershell
 python -m http.server 8000
 ```
 
-Danach im Browser öffnen: [http://localhost:8000](http://localhost:8000)
+Danach: [http://localhost:8000](http://localhost:8000)
 
 ## Online stellen
 
-1. Änderungen committen und nach `main` pushen, oder einen Pull Request nach `main` mergen.
-2. Einmalig in GitHub: **Settings → Pages → Source: GitHub Actions**.
-3. Der Workflow `.github/workflows/deploy-pages.yml` baut die Seite und veröffentlicht sie.
-4. Pull Requests nach `main` prüfen nur, ob die Dateien vollständig sind. Erst der Merge (oder ein direkter Push auf `main`) aktualisiert die Website.
+Die Seite liegt fertig als HTML/CSS/JS im Repo. GitHub Pages kann sie direkt aus dem Branch `main` ausliefern — ohne Actions-Workflow.
+
+1. Code nach `main` pushen.
+2. Einmalig im Repo: **Settings → Pages**
+   - **Source:** Deploy from a branch
+   - **Branch:** `main`
+   - **Folder:** `/ (root)`
+   - Save
+3. Nach ein bis zwei Minuten ist die Seite unter der Adresse oben erreichbar.
+
+Spätere Änderungen: wieder nach `main` pushen oder einen Pull Request nach `main` mergen. GitHub aktualisiert die Website dann von selbst.
 
 ## Inhalte ergänzen
 
-- Portrait: `assets/portrait.svg` ersetzen oder in `index.html` auf ein eigenes Bild zeigen.
-- Texte auf der Startseite und der Vorlesungsseite direkt in den HTML-Dateien anpassen.
-- Weitere Vorlesungs-Kacheln in `vorlesungen.html` ergänzen und jeweils eine neue HTML-Datei unter `vorlesungen/` anlegen.
+- Portrait: `assets/portrait.jpg`
+- Texte direkt in den HTML-Dateien anpassen
+- Weitere Vorlesungen: Eintrag in `vorlesungen.html` plus neue Datei unter `vorlesungen/`
