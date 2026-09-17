@@ -183,6 +183,13 @@ h1 {
   margin: 0 0 1.15em;
 }
 
+.org-name {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d40032;
+}
+
 h2.eyebrow {
   font-family: var(--font-sans);
   font-size: 0.78rem;
