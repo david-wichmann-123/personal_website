@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>David Wichmann — Mathematik &amp; KI</title>
+    <meta
+      name="description"
+      content="Persönliche Website von David Wichmann, Professor für Mathematik und Künstliche Intelligenz an der Hochschule Esslingen."
+    />
+    <link rel="icon" href="assets/portrait.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css?v=3" />
+  </head>
+  <body>
+    <a class="skip-link" href="#inhalt">Zum Inhalt</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html" aria-label="Zur Startseite">DW</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navigation">
+          Menü
+        </button>
+        <nav class="site-nav" id="navigation" aria-label="Hauptnavigation">
+          <a href="index.html" aria-current="page">Start</a>
+          <a href="vorlesungen.html">Vorlesungen</a>
+          <a href="abschlussarbeiten.html">Abschlussarbeiten</a>
+          <a href="forschung.html">Forschung</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inhalt" class="wrap">
+      <section class="hero">
+        <div class="portrait">
+            <img src="assets/portrait.jpg" alt="Portrait von David Wichmann" />
+        </div>
+        <div>
+          <h1>David Wichmann</h1>
+          <div class="prose">
+            <p>
+              Willkommen auf meiner Website. Ich bin Professor für Mathematik und
+              Künstliche Intelligenz an der Hochschule Esslingen.
+            </p>
+            <p>
+              Meine Schwerpunkte liegen im maschinellen Lernen für physikalische
+              Systeme und in der Anwendung von Foundation Models, insbesondere auf
+              ingenieurwissenschaftliche Fragestellungen. An der Hochschule
+              unterrichte ich Mathematik im Fachbereich Wirtschaftsingenieurwesen.
+              Darüber hinaus unterstütze ich Unternehmen – insbesondere Start-ups –
+              dabei, KI gezielt für Vorhersagen einzusetzen.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="home-cta" aria-label="Kontakt">
+        <div class="home-block">
+          <h2 class="eyebrow">Abschlussarbeiten</h2>
+          <p>
+            Interesse an einer Abschlussarbeit? Zu den
+            <a href="abschlussarbeiten.html">Themen</a>.
+          </p>
+        </div>
+        <div class="home-block">
+          <h2 class="eyebrow">Zusammenarbeit</h2>
+          <p>
+            Interesse an einer Zusammenarbeit im Bereich KI? Ob im Rahmen von
+            Drittmittelprojekten oder externen Vorhaben: Ich freue mich über Ihre
+            <a href="https://www.hs-esslingen.de/personen/david-wichmann" target="_blank" rel="noopener noreferrer">Nachricht</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="wrap">© <span id="year"></span> David Wichmann · Hochschule Esslingen</p>
+    </footer>
+    <script src="js/main.js?v=3"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
