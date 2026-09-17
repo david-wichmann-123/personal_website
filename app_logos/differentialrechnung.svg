@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Differentialrechnung">
+  <rect width="512" height="512" rx="96" fill="#002C5C"/>
+  <path
+    d="M 70 350 C 150 350, 240 110, 440 170"
+    stroke="#ffffff"
+    stroke-width="16"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <path
+    d="M 75 357 L 360 106"
+    stroke="#5B9BD5"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-dasharray="4 18"
+    fill="none"
+    opacity="0.85"
+  />
+  <circle cx="217" cy="231" r="26" fill="#ffffff"/>
+  <text
+    x="256"
+    y="448"
+    text-anchor="middle"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="80"
+    font-weight="700"
+    fill="#ffffff"
+  >f'</text>
+</svg>

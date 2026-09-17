@@ -330,6 +330,12 @@ a.course:hover h2 {
   color: inherit;
 }
 
+.app-tile img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 14px;
+}
+
 .app-tile h3 {
   margin: 0 0 8px;
   font-size: 1.2rem;
