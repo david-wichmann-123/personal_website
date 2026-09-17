@@ -184,7 +184,9 @@ h1 {
 }
 
 .org-name {
-  font-weight: 700;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
   color: #d40032;
 }
 
